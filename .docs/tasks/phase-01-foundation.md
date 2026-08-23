@@ -13,6 +13,8 @@ Establish the project structure and development environment.
 - Tailwind CSS
 - shadcn/ui
 - Supabase connection
+- Shared API contract boundary
+- Platform and capability request context
 - Environment variables
 - ESLint
 - Prettier
@@ -27,7 +29,7 @@ None.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Project Manager
 - Backend

@@ -94,7 +94,7 @@ The Admin Panel is for platform administration only and must never expose sensit
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

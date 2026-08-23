@@ -28,7 +28,11 @@
 
 ---
 
-## Assigned Agent
+## Primary Owner
+
+Claude Code
+
+## Optional Specialist Support
 
 ---
 

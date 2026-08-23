@@ -2,7 +2,7 @@
 
 ## Role
 
-Responsible for building the user interface.
+Responsible for building the Web client user interface. Native Android and iOS presentation belongs to their future platform-native client teams.
 
 ---
 
@@ -52,6 +52,7 @@ Responsible for building the user interface.
 Read:
 
 - architecture/frontend.md
+- architecture/platforms.md
 - standards/
 - relevant task
 

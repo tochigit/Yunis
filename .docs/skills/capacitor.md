@@ -1,14 +1,16 @@
-# Capacitor Skill
+# Capacitor Skill (Deprecated)
+
+> Historical record only. Capacitor is no longer the Yunis mobile application architecture.
 
 ## Purpose
 
-Defines how Yunis is packaged as a mobile application.
+This document records the previous packaging approach. It must not be used for new mobile work.
 
 ---
 
 # Responsibilities
 
-Capacitor provides:
+The previous approach used Capacitor for:
 
 - Android build
 - iOS build
@@ -28,7 +30,7 @@ Capacitor provides:
 
 # Native Features
 
-Use Capacitor plugins for:
+The previous approach used Capacitor plugins for:
 
 - Push Notifications
 - Camera
@@ -38,8 +40,8 @@ Use Capacitor plugins for:
 
 ---
 
-# Rules
+# Current Guidance
 
-Business logic must remain inside the shared application.
+Do not add Capacitor packaging or plugin dependencies. Future Android work belongs in Kotlin/Jetpack Compose and future iOS work belongs in Swift/SwiftUI. Both clients must consume the shared backend and follow [Platform Architecture](../architecture/platforms.md).
 
-Avoid platform-specific implementations unless required.
+Business logic remains inside shared backend services.

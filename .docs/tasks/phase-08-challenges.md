@@ -27,7 +27,7 @@ Build the challenge system.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

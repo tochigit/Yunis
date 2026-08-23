@@ -61,7 +61,7 @@ Implement secure payments, subscriptions, and localized pricing.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Database

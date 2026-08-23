@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Standard workflow for implementing features.
+Standard Claude Code workflow for implementing features.
 
 ---
 
@@ -17,13 +17,11 @@ Standard workflow for implementing features.
 
 # Process
 
-1. Understand requirements.
-2. Identify affected systems.
-3. Build backend.
-4. Build frontend.
-5. Integrate.
-6. Test.
-7. Update documentation.
+1. Claude understands requirements and identifies affected systems.
+2. Claude decides whether optional specialist delegation provides meaningful value.
+3. Claude implements the feature, or delegates a bounded specialist task with explicit ownership and validation criteria.
+4. Claude integrates the result.
+5. Claude tests, reviews, and updates documentation.
 
 ---
 
@@ -32,6 +30,7 @@ Standard workflow for implementing features.
 - Follow standards.
 - Keep changes focused.
 - Avoid breaking existing features.
+- Never delegate trivial work or allow conflicting parallel edits.
 
 ---
 

@@ -29,7 +29,7 @@ Implement real-time communication between Bond members.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

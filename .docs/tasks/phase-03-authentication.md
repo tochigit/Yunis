@@ -24,7 +24,7 @@ Phase 01
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

@@ -22,6 +22,7 @@ The rest of the application never talks directly to AI providers.
 - DeepSeek
 - Google Gemini
 - Groq
+- Anthropic
 
 Additional providers can be added in the future without changing application code.
 

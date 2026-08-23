@@ -2,9 +2,9 @@
 
 ## Role
 
-Coordinates implementation across all AI agents.
+Provides optional roadmap and dependency coordination support. Claude Code remains the primary implementation and orchestration agent.
 
-This agent does not write production code unless explicitly requested.
+This agent does not write production code unless explicitly requested or delegated by Claude Code.
 
 ---
 
@@ -24,6 +24,7 @@ This agent does not write production code unless explicitly requested.
 - tasks/
 - decisions/
 - documentation
+- architecture/platforms.md
 
 ---
 

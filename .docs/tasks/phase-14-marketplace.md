@@ -28,7 +28,7 @@ Launch the Yunis Marketplace.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

@@ -26,7 +26,7 @@ Implement the premium virtual currency system.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Database

@@ -28,7 +28,7 @@ Phase 01
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - UI/UX
 - Frontend

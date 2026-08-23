@@ -90,6 +90,9 @@ If recording a major product or engineering choice:
 
 ## Agents
 
+- [.docs/agents/README.md](.docs/agents/README.md)
+  - Defines Claude Code as the primary implementation and orchestration agent, optional specialist boundaries, delegation rules, and integration requirements.
+
 - [.docs/agents/ai.md](.docs/agents/ai.md)
   - Defines the AI agent role, responsibilities, ownership boundaries, and standards. Related to AI architecture, HeartString AI requirements, and AI gateway skill guidance.
 
@@ -130,6 +133,9 @@ If recording a major product or engineering choice:
 
 - [.docs/architecture/overview.md](.docs/architecture/overview.md)
   - Provides the high-level system architecture, system layers, major systems, and communication model. Related to all specialized architecture documents and implementation tasks.
+
+- [.docs/architecture/platforms.md](.docs/architecture/platforms.md)
+  - Defines the shared backend, first-class Web/Android/iOS clients, API boundaries, capability context, deep-link continuity, and delivery sequence.
 
 - [.docs/architecture/security.md](.docs/architecture/security.md)
   - Defines security philosophy, authentication, authorization, and core security principles. Related to product security PRD, security review tool, and deployment architecture.
@@ -213,6 +219,9 @@ If recording a major product or engineering choice:
 - [.docs/decisions/DECISION-007-database.md](.docs/decisions/DECISION-007-database.md)
   - Records the accepted database decision. Related to database architecture, Supabase skill guidance, and database templates.
 
+- [.docs/decisions/DECISION-008-multi-client-platform.md](.docs/decisions/DECISION-008-multi-client-platform.md)
+  - Records the approved multi-client platform architecture and supersedes the Capacitor mobile strategy. Related to platform architecture, deployment, frontend, backend, and task sequencing.
+
 ## PRD
 
 - [.docs/prd/README.md](.docs/prd/README.md)
@@ -287,7 +296,7 @@ If recording a major product or engineering choice:
   - Defines animation philosophy, principles, appropriate uses, and animation limits. Related to design language, frontend architecture, and UI implementation tasks.
 
 - [.docs/skills/capacitor.md](.docs/skills/capacitor.md)
-  - Defines Capacitor responsibilities, principles, native features, and rules. Related to deployment architecture, platform work, and mobile implementation.
+  - Deprecated historical record of the former Capacitor packaging approach. New native work follows the platform architecture decision.
 
 - [.docs/skills/glassmorphism.md](.docs/skills/glassmorphism.md)
   - Defines glassmorphism design direction, principles, avoided patterns, and design goal. Related to design language, Tailwind guidance, and component design.
@@ -339,61 +348,61 @@ If recording a major product or engineering choice:
   - Defines final checklist items for documentation, infrastructure, core features, premium features, and platform features. Related to launch, QA, and release process.
 
 - [.docs/tasks/phase-01-foundation.md](.docs/tasks/phase-01-foundation.md)
-  - Defines foundation phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to architecture, standards, and initial project setup.
+  - Defines foundation phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to architecture, standards, and initial project setup.
 
 - [.docs/tasks/phase-02-design-system.md](.docs/tasks/phase-02-design-system.md)
-  - Defines design system phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to design language, UI/UX agent guidance, and component standards.
+  - Defines design system phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to design language, UI/UX agent guidance, and component standards.
 
 - [.docs/tasks/phase-03-authentication.md](.docs/tasks/phase-03-authentication.md)
-  - Defines authentication phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to security architecture, product security, onboarding, and Supabase.
+  - Defines authentication phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to security architecture, product security, onboarding, and Supabase.
 
 - [.docs/tasks/phase-04-database.md](.docs/tasks/phase-04-database.md)
-  - Defines database phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to database architecture, Supabase, and database decisions.
+  - Defines database phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to database architecture, Supabase, and database decisions.
 
 - [.docs/tasks/phase-05-bond-system.md](.docs/tasks/phase-05-bond-system.md)
-  - Defines bond system phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to bonds PRD, bond lifecycle, and relationship growth model.
+  - Defines bond system phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to bonds PRD, bond lifecycle, and relationship growth model.
 
 - [.docs/tasks/phase-06-chat.md](.docs/tasks/phase-06-chat.md)
-  - Defines chat phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to chat PRD, HeartString AI, notifications, and security.
+  - Defines chat phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to chat PRD, HeartString AI, notifications, and security.
 
 - [.docs/tasks/phase-07-memories.md](.docs/tasks/phase-07-memories.md)
-  - Defines memories phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to memories PRD, bonds, storybooks, and Bond Movies.
+  - Defines memories phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to memories PRD, bonds, storybooks, and Bond Movies.
 
 - [.docs/tasks/phase-08-challenges.md](.docs/tasks/phase-08-challenges.md)
-  - Defines challenges phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to challenges PRD, Hearts Economy, notifications, and relationship growth.
+  - Defines challenges phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to challenges PRD, Hearts Economy, notifications, and relationship growth.
 
 - [.docs/tasks/phase-09-heartstring-ai.md](.docs/tasks/phase-09-heartstring-ai.md)
-  - Defines HeartString AI phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to HeartString AI PRD, AI architecture, and AI behavior.
+  - Defines HeartString AI phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to HeartString AI PRD, AI architecture, and AI behavior.
 
 - [.docs/tasks/phase-10-storybooks.md](.docs/tasks/phase-10-storybooks.md)
-  - Defines storybooks phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to storybook PRD, storybook generation philosophy, and memories.
+  - Defines storybooks phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to storybook PRD, storybook generation philosophy, and memories.
 
 - [.docs/tasks/phase-11-bond-movies.md](.docs/tasks/phase-11-bond-movies.md)
-  - Defines Bond Movies phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to Bond Movies PRD, storybooks, memories, and AI.
+  - Defines Bond Movies phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to Bond Movies PRD, storybooks, memories, and AI.
 
 - [.docs/tasks/phase-12-hearts-economy.md](.docs/tasks/phase-12-hearts-economy.md)
-  - Defines Hearts Economy phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to Hearts Economy PRD, heart economy rules, monetization, and marketplace.
+  - Defines Hearts Economy phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to Hearts Economy PRD, heart economy rules, monetization, and marketplace.
 
 - [.docs/tasks/phase-13-payments-subscriptions.md](.docs/tasks/phase-13-payments-subscriptions.md)
-  - Defines payments and subscriptions phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to subscriptions PRD, monetization PRD, and deployment/security architecture.
+  - Defines payments and subscriptions phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to subscriptions PRD, monetization PRD, and deployment/security architecture.
 
 - [.docs/tasks/phase-14-marketplace.md](.docs/tasks/phase-14-marketplace.md)
-  - Defines marketplace phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to marketplace PRD, Hearts Economy, community, and monetization.
+  - Defines marketplace phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to marketplace PRD, Hearts Economy, community, and monetization.
 
 - [.docs/tasks/phase-15-community.md](.docs/tasks/phase-15-community.md)
-  - Defines community phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to community PRD, community philosophy, profiles, and moderation.
+  - Defines community phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to community PRD, community philosophy, profiles, and moderation.
 
 - [.docs/tasks/phase-16-notifications.md](.docs/tasks/phase-16-notifications.md)
-  - Defines notifications phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to notifications PRD, retention philosophy, chat, and challenges.
+  - Defines notifications phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to notifications PRD, retention philosophy, chat, and challenges.
 
 - [.docs/tasks/phase-17-admin-panel.md](.docs/tasks/phase-17-admin-panel.md)
-  - Defines admin panel phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to admin panel PRD, security, community moderation, and QA.
+  - Defines admin panel phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to admin panel PRD, security, community moderation, and QA.
 
 - [.docs/tasks/phase-18-testing-optimization.md](.docs/tasks/phase-18-testing-optimization.md)
-  - Defines testing and optimization phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to QA agent guidance, testing checklist, performance review, and final checklist.
+  - Defines testing and optimization phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to QA agent guidance, testing checklist, performance review, and final checklist.
 
 - [.docs/tasks/phase-19-launch.md](.docs/tasks/phase-19-launch.md)
-  - Defines launch phase goal, deliverables, dependencies, assigned agents, and success criteria. Related to deployment checklist, release process, final checklist, and product readiness.
+  - Defines launch phase goal, deliverables, dependencies, historical specialist assignments, and success criteria. Related to deployment checklist, release process, final checklist, and product readiness.
 
 ## Templates
 

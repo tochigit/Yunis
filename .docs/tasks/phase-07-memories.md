@@ -27,7 +27,7 @@ Allow Bonds to preserve meaningful moments.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

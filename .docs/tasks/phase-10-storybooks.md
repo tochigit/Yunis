@@ -27,7 +27,7 @@ Generate beautiful digital Storybooks from Bond history.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - AI

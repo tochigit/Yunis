@@ -33,7 +33,7 @@ Everything else depends on Bonds.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

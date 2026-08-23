@@ -9,6 +9,7 @@ Responsible for application logic.
 # Responsibilities
 
 - APIs
+- Shared API contracts and error models
 - Services
 - Authentication
 - Authorization
@@ -24,6 +25,7 @@ Responsible for application logic.
 - app/api/
 - lib/server/
 - services/
+- shared domain interfaces
 
 ---
 
@@ -32,6 +34,7 @@ Responsible for application logic.
 - UI
 - Styling
 - Database schema
+- Native client presentation
 
 ---
 
@@ -49,6 +52,7 @@ Responsible for application logic.
 Read:
 
 - architecture/backend.md
+- architecture/platforms.md
 - architecture/security.md
 - relevant task
 

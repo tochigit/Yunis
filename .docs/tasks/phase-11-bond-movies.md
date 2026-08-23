@@ -26,7 +26,7 @@ Create AI-generated highlight movies.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - AI
 - Backend

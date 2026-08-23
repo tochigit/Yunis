@@ -27,6 +27,7 @@ The backend is responsible for:
 - Stateless
 - Secure by default
 - Modular services
+- Client-independent contracts
 
 ---
 
@@ -103,6 +104,12 @@ Errors should:
 - Be logged
 - Return meaningful responses
 - Never expose sensitive information
+
+## Shared Client Contract
+
+Web, Android, and iOS are first-class API clients. Shared interfaces should define authentication, authorization outcomes, request and response models, stable error codes, pagination, and relevant platform capability metadata. The backend must not branch its domain behavior on the client platform.
+
+Clients must not bypass backend authorization or duplicate business rules. Supabase remains shared infrastructure behind the intended server-driven security architecture.
 
 ---
 

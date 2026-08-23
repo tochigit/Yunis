@@ -60,7 +60,7 @@ Resolve critical and high-priority issues before launch.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - QA
 - Backend

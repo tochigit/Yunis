@@ -37,6 +37,8 @@ These rules apply to every AI agent and every contributor.
 - Validate all user input.
 - Enforce authorization on the server.
 - Never trust client-side data.
+- Keep business rules and security-sensitive operations in shared backend services.
+- Treat Web, Android, and iOS as first-class API clients; do not add scattered platform conditionals to domain logic.
 
 ---
 
@@ -56,6 +58,7 @@ These rules apply to every AI agent and every contributor.
 - Responsive by default.
 - Accessibility should never be ignored.
 - Consistency is more important than creativity.
+- Native clients should follow platform conventions while preserving shared product behavior.
 
 ---
 

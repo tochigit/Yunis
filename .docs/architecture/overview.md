@@ -17,32 +17,34 @@ The system is designed to be modular, scalable, maintainable, and AI-friendly. E
 - API-first design
 - Scalable infrastructure
 - Clear separation of concerns
+- One shared backend with multiple first-class clients
 
 ---
 
 # System Layers
 
-Presentation Layer
+Client Layer
 
-- Next.js
-- Capacitor
-- UI Components
+- Web: Next.js, React, TypeScript, Tailwind CSS, shadcn/ui
+- Android: Kotlin and Jetpack Compose (future)
+- iOS: Swift and SwiftUI (future)
+- Optional desktop clients (future, if justified)
 
 ↓
 
-Application Layer
+Shared Platform Layer
 
-- Business Logic
-- API Routes
-- Authentication
-- Services
+- Authentication and authorization
+- Versioned API contracts
+- Domain services and business rules
+- AI, payments, notifications, and storage services
 
 ↓
 
 Data Layer
 
-- Supabase Database
-- Storage
+- Supabase PostgreSQL database
+- Supabase Storage
 - Cache
 
 ↓
@@ -79,9 +81,11 @@ Each system should remain as independent as possible.
 
 # Communication
 
-Systems communicate through well-defined services and APIs.
+All clients communicate with the shared platform through well-defined APIs and contracts. The backend must not depend on the calling platform, and clients must not duplicate security-sensitive business logic.
 
 Avoid direct dependencies between unrelated modules.
+
+Platform-aware behavior should use explicit request context and capability boundaries. See [Platform Architecture](platforms.md) for client boundaries, capability metadata, and future deep-link continuity.
 
 ---
 

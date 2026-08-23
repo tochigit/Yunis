@@ -12,7 +12,7 @@ This directory is the single source of truth for the project. Every AI agent and
 
 # Documentation Structure
 
-/docs
+/.docs
 
 - bible/ → Product vision and philosophy.
 - prd/ → Product requirements and feature specifications.
@@ -30,12 +30,11 @@ This directory is the single source of truth for the project. Every AI agent and
 
 # Development Workflow
 
-1. Read `AGENTS.md`.
-2. Open this file.
-3. Identify the task.
-4. Load only the documentation required for that task.
-5. Complete the task.
-6. Update documentation if the implementation changes behavior.
+1. Claude Code reads `AGENTS.md` and the relevant `.docs/agents/README.md` guidance.
+2. Claude identifies the task and loads only the documentation required for it.
+3. Claude implements directly or delegates a bounded specialist task when specialization provides meaningful value.
+4. Claude validates, reviews, integrates, and resolves conflicts.
+5. Claude updates documentation when implementation changes behavior.
 
 ---
 
@@ -43,12 +42,14 @@ This directory is the single source of truth for the project. Every AI agent and
 
 When multiple documents exist, use this order:
 
-1. PRD
-2. Architecture
-3. Standards
-4. Tasks
-5. Skills
-6. Tools
+1. Architecture
+2. Standards
+3. Decisions
+4. PRD
+5. Bible
+6. Tasks
+7. Skills
+8. Tools
 
 ---
 

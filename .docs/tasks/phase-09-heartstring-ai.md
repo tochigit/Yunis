@@ -30,7 +30,7 @@ Implement Yunis's AI assistant.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - AI

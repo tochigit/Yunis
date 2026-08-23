@@ -1,5 +1,11 @@
 # Eternal Bond — AI Engineering Guide
 
+## Primary Development Agent
+
+Claude Code is the primary implementation and orchestration agent for Yunis. It may directly handle architecture, backend, APIs, database integration, Web development, testing, debugging, refactoring, documentation, deployment preparation, and future native Android and iOS work.
+
+The agents documented under `.docs/agents/` are optional specialists. Claude delegates only when independent review, specialized expertise, or safe parallel work provides meaningful value, and remains responsible for integration and final validation.
+
 ## Mission
 
 You are contributing to Eternal Bond, a premium relationship and connection platform focused on helping people build stronger friendships, relationships, family bonds, and meaningful memories.

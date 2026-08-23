@@ -47,7 +47,9 @@ Community
 
 Growth
 
-- Mobile Apps
+- Native Android app (Kotlin/Jetpack Compose)
+- Native iOS app (Swift/SwiftUI)
+- Shared backend and account continuity
 - AI Improvements
 - Advanced Analytics
 - Family Features

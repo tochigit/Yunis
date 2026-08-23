@@ -26,7 +26,7 @@ Phase 03
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Database
 - Backend

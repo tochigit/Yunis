@@ -19,14 +19,14 @@ Deployments should be:
 
 # Platforms
 
-Frontend
+Web Client
 
 - Vercel
 
-Backend
+Shared Backend
 
 - Next.js Server
-- API Routes
+- API services and contracts
 
 Database
 
@@ -36,11 +36,14 @@ Storage
 
 - Supabase Storage
 
-Mobile
+Native Clients (future)
 
-- Capacitor
-- Google Play
-- Apple App Store
+- Android: Kotlin/Jetpack Compose, Google Play
+- iOS: Swift/SwiftUI, Apple App Store
+
+Native clients consume the shared backend and database. They are independently built and released; they are not packaged versions of the Web client.
+
+Desktop clients are optional future deployments and require separate product and operational justification.
 
 ---
 

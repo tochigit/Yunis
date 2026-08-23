@@ -27,7 +27,7 @@ Implement the optional global community experience.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

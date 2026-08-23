@@ -28,7 +28,7 @@ Deliver timely and meaningful notifications.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Backend
 - Frontend

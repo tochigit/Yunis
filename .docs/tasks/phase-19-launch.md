@@ -51,7 +51,7 @@ Deploy Yunis to production.
 
 ---
 
-## Assigned Agents
+## Historical Specialist Assignments
 
 - Project Manager
 - Backend

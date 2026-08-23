@@ -13,7 +13,8 @@ Defines the structure and responsibilities of the frontend application.
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
-- Capacitor
+
+The Web client is the first implementation target. Android and iOS are separate future native clients and are documented in [Platform Architecture](platforms.md).
 
 ---
 
@@ -27,6 +28,8 @@ The frontend is responsible for:
 - Form validation
 - State management
 - Calling backend APIs
+
+The Web client consumes shared APIs as a first-class platform client. It is not the source of truth for business rules or security-sensitive behavior.
 
 The frontend is NOT responsible for:
 
