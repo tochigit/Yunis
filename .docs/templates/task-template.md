@@ -30,7 +30,7 @@
 
 ## Primary Owner
 
-Claude Code
+Implementation
 
 ## Optional Specialist Support
 

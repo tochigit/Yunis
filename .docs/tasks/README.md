@@ -19,13 +19,13 @@ Each phase should be completed before moving to the next unless explicitly marke
 
 ---
 
-## AI Workflow
+## Implementation Workflow
 
-Claude Code is the primary implementer and orchestrator for every phase. Claude owns task decomposition, implementation, integration, conflict resolution, testing, and final validation. Specialists are optional and should be delegated only when they provide meaningful independent review, specialized analysis, or safe parallel progress.
+Implementation agents must understand the relevant project context before beginning work. They load only the required documentation, implement according to the project architecture and standards, validate the result, and update documentation when behavior changes.
 
-The phase assignments below are the audited specialist options, not mandatory handoffs. Claude remains accountable for the complete phase.
+The phase assignments below define the primary responsibility and optional specialist support for each slice of work. They are not a mandatory vendor-specific ownership model. Work may be completed by one agent or by multiple agents operating within their documented role boundaries.
 
-| Phase | Claude ownership | Optional specialist support |
+| Phase | Primary responsibility | Optional specialist support |
 | --- | --- | --- |
 | 1. Foundation | Implement and integrate shared backend foundation and Web client | Backend, Frontend, Project Manager |
 | 2. Design System | Implement and integrate the Web design system | UI/UX, Frontend |
@@ -97,4 +97,4 @@ The implementation roadmap remains Web-first:
 
 Native client work must consume shared APIs and must not introduce separate databases or a Capacitor wrapper.
 
-When native work begins, Claude can implement and coordinate Web, Kotlin/Jetpack Compose, and Swift/SwiftUI work against the same backend. Platform specialists are optional reviewers, not separate mandatory owners.
+When native work begins, implementation teams or agents coordinate Web, Kotlin/Jetpack Compose, and Swift/SwiftUI work against the same backend. Platform specialists are optional reviewers, not separate mandatory owners.

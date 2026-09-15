@@ -1,10 +1,10 @@
 # Eternal Bond — AI Engineering Guide
 
-## Primary Development Agent
+## Implementation Agent Rules
 
-Claude Code is the primary implementation and orchestration agent for Yunis. It may directly handle architecture, backend, APIs, database integration, Web development, testing, debugging, refactoring, documentation, deployment preparation, and future native Android and iOS work.
+Yunis documentation is agent-neutral. The repository defines how Yunis should be built. Any authorized implementation agent must understand the relevant project context before making changes. Agents should load only the documentation required for the assigned task, implement according to the documented architecture and standards, validate their work, and update documentation when implementation changes project behavior.
 
-The agents documented under `.docs/agents/` are optional specialists. Claude delegates only when independent review, specialized expertise, or safe parallel work provides meaningful value, and remains responsible for integration and final validation.
+Implementation agents may work directly or delegate bounded work when appropriate. Delegation should be based on task requirements and meaningful specialization, not on arbitrary agent structure. The resulting work must remain consistent with the project's architecture and standards.
 
 ## Mission
 

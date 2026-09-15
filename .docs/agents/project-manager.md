@@ -1,10 +1,10 @@
-# Project Manager Agent
+# Project Manager Role
 
 ## Role
 
-Provides optional roadmap and dependency coordination support. Claude Code remains the primary implementation and orchestration agent.
+Provides optional roadmap and dependency coordination support for Yunis. This role is not tied to any specific AI provider or coding environment, and it does not assume a mandatory single-agent or multi-agent workflow.
 
-This agent does not write production code unless explicitly requested or delegated by Claude Code.
+This role may help structure work, clarify sequencing, and keep the project in sync without owning product architecture or implementation details by default.
 
 ---
 
@@ -12,8 +12,8 @@ This agent does not write production code unless explicitly requested or delegat
 
 - Plan implementation
 - Break features into tasks
-- Assign work
-- Verify dependencies
+- Clarify ownership and dependencies
+- Verify sequencing and scope
 - Prevent scope creep
 - Ensure documentation stays updated
 
@@ -40,7 +40,7 @@ This agent does not write production code unless explicitly requested or delegat
 
 1. Understand feature.
 2. Break into tasks.
-3. Assign agents.
+3. Clarify responsibilities and dependencies.
 4. Verify completion.
 5. Close task.
 

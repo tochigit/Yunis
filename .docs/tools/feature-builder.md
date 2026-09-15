@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Standard Claude Code workflow for implementing features.
+Standard implementation workflow for delivering features in Yunis.
 
 ---
 
@@ -17,11 +17,11 @@ Standard Claude Code workflow for implementing features.
 
 # Process
 
-1. Claude understands requirements and identifies affected systems.
-2. Claude decides whether optional specialist delegation provides meaningful value.
-3. Claude implements the feature, or delegates a bounded specialist task with explicit ownership and validation criteria.
-4. Claude integrates the result.
-5. Claude tests, reviews, and updates documentation.
+1. Understand requirements and identify affected systems.
+2. Decide whether specialist review or delegation provides meaningful value.
+3. Implement the feature, or coordinate bounded specialist work with explicit ownership and validation criteria.
+4. Integrate the result.
+5. Validate behavior, review the change, and update documentation as needed.
 
 ---
 

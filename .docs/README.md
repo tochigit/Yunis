@@ -30,11 +30,11 @@ This directory is the single source of truth for the project. Every AI agent and
 
 # Development Workflow
 
-1. Claude Code reads `AGENTS.md` and the relevant `.docs/agents/README.md` guidance.
-2. Claude identifies the task and loads only the documentation required for it.
-3. Claude implements directly or delegates a bounded specialist task when specialization provides meaningful value.
-4. Claude validates, reviews, integrates, and resolves conflicts.
-5. Claude updates documentation when implementation changes behavior.
+1. An implementation agent reads `AGENTS.md` and the relevant `.docs/agents/README.md` guidance.
+2. The agent identifies the task and loads only the documentation required for it.
+3. The agent implements directly or coordinates bounded specialist work when specialization provides meaningful value.
+4. The agent validates, reviews, integrates, and resolves conflicts.
+5. The agent updates documentation when implementation changes behavior.
 
 ---
 

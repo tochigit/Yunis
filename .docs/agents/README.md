@@ -1,20 +1,20 @@
-# Agent Ownership and Delegation
+# Agent Ownership and Responsibility
 
 ## Operating Model
 
-Claude Code is Yunis's primary implementation and orchestration agent. Claude may directly handle architecture, backend, APIs, database integration, Web development, testing, debugging, refactoring, documentation, deployment preparation, and future native Android and iOS development.
+Yunis documentation is agent-neutral. The repository defines project responsibilities, boundaries, and standards independent of any specific AI provider, model, or coding environment. Implementation agents may work directly or coordinate specialist roles when the work requires meaningful expertise, parallel validation, or bounded review.
 
-Specialized agents remain available as optional specialists. They do not own the project by default and must not be invoked merely to split trivial work.
+Specialized roles remain available as optional areas of responsibility. They do not own the project by default and should not be invoked merely to split trivial work.
 
 ## Responsibilities
 
-Claude Code is responsible for:
+Implementation agents are responsible for:
 
 - Decomposing tasks and selecting the smallest useful work units
 - Implementing and integrating changes across owned boundaries
-- Deciding whether delegation provides meaningful value
+- Deciding whether specialist review provides meaningful value
 - Resolving conflicts and preserving shared architecture
-- Running focused tests and final validation
+- Running focused validation and final checks
 - Confirming delegated work satisfies requirements before integration
 
 Specialists may provide:
@@ -25,15 +25,15 @@ Specialists may provide:
 - Independent code review
 - Parallel validation that does not touch the same files
 
-A specialist recommendation is not complete until Claude validates and integrates it.
+A specialist recommendation is not complete until the implementation agent validates and integrates it.
 
 ## Delegation Rules
 
-Delegate only when the work is genuinely specialized, independently reviewable, or safely parallel. Keep implementation with Claude when the task is small, cross-cutting, requires tight integration, or can be completed faster without coordination overhead.
+Delegate only when the work is genuinely specialized, independently reviewable, or safely parallel. Keep implementation with the assigned agent when the task is small, cross-cutting, requires tight integration, or can be completed faster without coordination overhead.
 
-Before delegating, Claude should identify the scope, expected artifact, owned files, validation command, and integration criteria. Delegated work must return its findings or changes clearly, avoid unrelated edits, and include evidence from its validation.
+Before delegating, the implementation agent should identify the scope, expected artifact, owned files, validation command, and integration criteria. Delegated work must return findings or changes clearly, avoid unrelated edits, and include evidence from validation.
 
-Never delegate security-sensitive decisions without Claude's review. Never allow parallel agents to edit the same files without an explicit integration plan.
+Never delegate security-sensitive decisions without review. Never allow parallel agents to edit the same files without an explicit integration plan.
 
 ## Specialist Boundaries
 
@@ -45,15 +45,15 @@ Never delegate security-sensitive decisions without Claude's review. Never allow
 - QA: optional independent test planning, regression review, and release validation.
 - Project Manager: optional roadmap and dependency coordination; not a required implementation gate.
 
-No separate native agent is required today. Claude can orchestrate future Kotlin/Compose and Swift/SwiftUI work, using specialist review only when platform-specific expertise materially reduces risk.
+No separate native agent is required today. Implementation work for future Kotlin/Compose and Swift/SwiftUI efforts should follow the same project architecture and standards, with specialist review only when platform-specific expertise materially reduces risk.
 
 ## Integration Sequence
 
 ```text
-Claude decomposes
-    -> Claude implements or delegates a bounded specialist task
+Requirements and project context
+    -> implementation or bounded specialist work
     -> focused validation
-    -> Claude reviews and integrates
+    -> review and integration
     -> final project validation
 ```
 

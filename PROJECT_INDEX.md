@@ -91,7 +91,7 @@ If recording a major product or engineering choice:
 ## Agents
 
 - [.docs/agents/README.md](.docs/agents/README.md)
-  - Defines Claude Code as the primary implementation and orchestration agent, optional specialist boundaries, delegation rules, and integration requirements.
+  - Defines the project’s agent-neutral implementation workflow, specialist boundaries, delegation rules, and integration requirements.
 
 - [.docs/agents/ai.md](.docs/agents/ai.md)
   - Defines the AI agent role, responsibilities, ownership boundaries, and standards. Related to AI architecture, HeartString AI requirements, and AI gateway skill guidance.
@@ -460,8 +460,11 @@ If recording a major product or engineering choice:
   - Provides testing checklist guidance. Related to QA agent responsibilities, testing and optimization tasks, and final checklist.
 
 
-| Agent          | Primary Responsibility                           |
-| -------------- | ------------------------------------------------ |
-| Codex          | Backend, architecture, refactoring               |
-| GitHub Copilot | Autocomplete, boilerplate, small implementations |
-| Gemini         | UI/UX review, design critique, second opinions   |
+| Role | Primary Responsibility |
+| ---- | --------------------- |
+| Implementation | Architecture, integration, validation, and change delivery |
+| Backend | APIs, services, business logic, and platform security |
+| Frontend | Web UI implementation and user-facing product surfaces |
+| Database | Schema, migrations, security, and data integrity |
+| UI/UX | Design system, interaction, and accessibility review |
+| QA | Verification, regression checks, and release confidence |
