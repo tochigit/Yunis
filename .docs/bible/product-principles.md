@@ -80,4 +80,8 @@ Every feature must answer:
 
 > Does this strengthen human relationships?
 
-If not, it does not belong.
+Prefer features that do. A feature that does not directly strengthen a relationship may still serve a legitimate user or business need if it creates meaningful value, supports Yunis's relationship-centered ecosystem, and respects the other principles.
+
+A competitor having a feature is neither sufficient reason to implement it nor sufficient reason to reject it.
+
+Use the [competitive decision framework](competitive-landscape.md#competitive-decision-framework) to evaluate its purpose, lifecycle contribution, reach, and cumulative effect on Yunis's identity.
