@@ -24,9 +24,9 @@ That is the purpose of Yunis.
 
 # Our Mission
 
-Strengthen existing human relationships.
+Yunis's primary mission is to strengthen existing human relationships.
 
-Not create new ones.
+Future capabilities may create new opportunities for connection while keeping existing relationships at the center of the product.
 
 ---
 
@@ -54,6 +54,8 @@ Technology should encourage those things instead of replacing them.
 Yunis supports couples, best friends, families, siblings, long-distance relationships, study partners, gaming partners, accountability partners, and other meaningful personal relationships.
 
 It is a universal relationship and connection platform, not a dating app.
+
+See the [competitive positioning](competitive-landscape.md) for how this identity guides product priorities and compatible expansion.
 
 ---
 

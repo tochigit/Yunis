@@ -157,6 +157,9 @@ If recording a major product or engineering choice:
 - [.docs/bible/community-philosophy.md](.docs/bible/community-philosophy.md)
   - Defines the community purpose, principles, content expectations, privacy posture, and growth approach. Related to the community PRD and moderation requirements.
 
+- [.docs/bible/competitive-landscape.md](.docs/bible/competitive-landscape.md)
+  - Defines Yunis's competitive positioning, Meetup's adjacent role, the recurring relationship lifecycle, growth hypotheses, and a framework for evaluating compatible expansion. Related to product philosophy, product principles, and bond lifecycle.
+
 - [.docs/bible/design-language.md](.docs/bible/design-language.md)
   - Defines the product design philosophy, goals, visual identity, UX approach, and component direction. Related to frontend architecture, UI/UX agent guidance, and design system tasks.
 

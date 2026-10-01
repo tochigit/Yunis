@@ -42,14 +42,15 @@ Decision Making
 
 1. philosophy.md
 2. product-principles.md
-3. design-language.md
-4. ai-philosophy.md
-5. monetization-philosophy.md
-6. relationship-philosophy.md
-7. community-philosophy.md
-8. engineering-philosophy.md
-9. future-vision.md
-10. things-we-will-never-do.md
+3. [competitive-landscape.md](competitive-landscape.md)
+4. design-language.md
+5. ai-philosophy.md
+6. monetization-philosophy.md
+7. relationship-philosophy.md
+8. community-philosophy.md
+9. engineering-philosophy.md
+10. future-vision.md
+11. things-we-will-never-do.md
 
 ---
 
