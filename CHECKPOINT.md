@@ -9,9 +9,10 @@ Implementation started on 1 October 2026. The user's handoff target is 22 Octobe
 ## Current State
 
 - Phase 01 — Foundation: in progress.
-- Step 1 — Runnable Web foundation: implemented and locally verified; GitHub publication and CI pending.
+- Step 1 — Runnable Web foundation: complete and verified; awaiting merge approval.
 - Branch: `feat/phase-01-web-foundation`, based on `main` at `722617ae23a0d00e70f9e84b90e8fe47fd5cce21`.
 - Documentation [PR #1](https://github.com/tochigit/Yunis/pull/1) was squash-merged with the user's approval, including their committed boundary update. Its local and remote task branches were removed after verifying the merged content.
+- Foundation [PR #2](https://github.com/tochigit/Yunis/pull/2) targets `main` and remains open and unmerged. Application commit: `0666617b94d994d8389ce6b91e2643a59edd6af9`; subsequent handoff updates are documentation only. Check the PR's current head and checks before merging.
 - The repository started this step with documentation only and a clean working tree.
 
 ## Foundation Checkpoints
@@ -27,10 +28,10 @@ Phase 01 remains incomplete until all its deliverables are verified. Authenticat
 - Passed: PR #1 merge confirmed through GitHub; its security check passed; merged `main` matches the reviewed documentation content.
 - Passed: independent static foundation and CI/smoke-code reviews; smoke script syntax check.
 - Passed locally: dependency installation and audit (zero reported vulnerabilities), Prettier checks, ESLint with no warnings, strict TypeScript, the complete production build, and the production HTTP smoke test (homepage, stylesheet, and 404).
-- Passed: 126 documentation links, `git diff --check`, and semantic text color contrast (all checked pairs above 4.5:1).
+- Passed: 148 local documentation links and their section anchors, `git diff --check`, and semantic text color contrast (all checked pairs above 4.5:1).
 - Passed locally: development startup and the homepage HTTP response at `http://127.0.0.1:3000`. Windows filesystem performance made the first request slow (about 100 seconds); run heavy local checks sequentially.
 - Browser visual and keyboard checks: unverified; the browser runtime reported no connected browsers.
-- GitHub foundation PR: not yet created.
+- Passed on Node 24 in GitHub Actions: locked dependency installation, formatting, lint, type checks, production build, and HTTP smoke. [CI evidence](https://github.com/tochigit/Yunis/actions/runs/36877286638) verifies application commit `0666617b94d994d8389ce6b91e2643a59edd6af9`. GitGuardian security checks also passed.
 - The verification servers were stopped. Start the application with `npm run dev` using the root README instructions.
 
 ## Implementation Choices and Open Issues
@@ -45,4 +46,6 @@ Phase 01 remains incomplete until all its deliverables are verified. Authenticat
 
 ## Resume
 
-Read `AGENTS.md`, `.docs/README.md`, this checkpoint, and `.docs/tasks/phase-01-foundation.md`. Inspect Git status and actual files before continuing. Resume Step 1; do not recreate a scaffold if application files already exist. Run the documented checks, record the results, publish the focused PR, then pause before Step 2.
+Read `AGENTS.md`, `.docs/README.md`, this checkpoint, and `.docs/tasks/phase-01-foundation.md`. Inspect Git status, the PR's current head, and actual files before continuing. Do not recreate the existing scaffold.
+
+Await explicit approval to merge PR #2 and continue. After approval, verify current checks, squash-merge that PR, update local `main`, and remove only its task branch after confirming the changes are integrated. Start Step 2 on a new branch from verified `main`: load the shared API/backend/platform contracts, implement and verify the smallest useful versioned API foundation, then update this checkpoint and publish its focused PR. Keep Supabase configuration in Step 3 and authentication in its documented phase.

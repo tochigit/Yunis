@@ -50,7 +50,7 @@ None.
 
 Implementation started on 1 October 2026. Phase 01 is in progress.
 
-1. **Runnable Web foundation:** application scaffold, local development, tooling, CI, and setup documentation.
+1. **Runnable Web foundation:** application scaffold, local development, tooling, CI, and setup documentation. Complete and verified in [PR #2](https://github.com/tochigit/Yunis/pull/2); awaiting merge approval.
 2. **Shared API foundation:** versioned contract boundary and relevant platform/capability request context.
 3. **Supabase configuration:** server-side environment validation and isolated connection verification.
 
