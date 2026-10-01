@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+package-lock.json
+next-env.d.ts
+
+# Preserve pre-existing documentation formatting.
+.docs/
+AGENTS.md
+PROJECT_INDEX.md

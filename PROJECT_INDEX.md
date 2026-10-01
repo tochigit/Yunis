@@ -85,6 +85,12 @@ If recording a major product or engineering choice:
 
 ## Root Documentation
 
+- [README.md](README.md)
+  - Explains local Web development, validation commands, current application boundaries, and how to continue implementation.
+
+- [CHECKPOINT.md](CHECKPOINT.md)
+  - Records the current verified implementation step, branch and PR evidence, remaining work, and exact continuation action.
+
 - [.docs/README.md](.docs/README.md)
   - Entry point for the Yunis knowledge base, documentation structure, workflow, and priority order. It governs how agents and developers should load the rest of the docs.
 
