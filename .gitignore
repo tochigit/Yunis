@@ -1,0 +1,19 @@
+# Dependencies and generated output
+/node_modules/
+/.next/
+/out/
+/build/
+/coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local credentials and hosting state
+.env*
+!.env.example
+*.pem
+/.vercel/
+
+# Local logs and operating-system files
+npm-debug.log*
+.DS_Store
+Thumbs.db
